@@ -19,25 +19,53 @@ body {
 }
 
 .masthead {
-    background: white;
+    background-position: top center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: #6B5BA1;
     padding-bottom: 2rem;
 }
 
 .masthead h1 {
     font-size: 3em;
     margin-bottom: 0;
-    color: #444;
+    color: #FFF;
+    text-shadow: 2px 2px 0px #000;
+    filter: dropshadow(color=#000, offx=2, offy=2);
 }
 
+.aliceheader        {      background-image: url(../img/aliceheader.jpg); }
+.alicealiceheader   {      background-image: url(../img/alicealiceheader.jpg); }
+.aliceskinheader    {      background-image: url(../img/aliceskinheader.jpg); }
+.pixelheader        {      background-image: url(../img/pixelheader.jpg); }
+.pollenheader       {      background-image: url(../img/pollenheader.jpg); }
+.pollenvertheader   {      background-image: url(../img/pollenvertheader.jpg); }
+.skinheader         {      background-image: url(../img/skinheader.jpg); }
+.vertheader         {      background-image: url(../img/vertheader.jpg); }
+
+.pollenheader h1,
+.pollenvertheader h1 {
+    color: #000;
+    text-shadow: 2px 2px 0px #FFF;
+    filter: dropshadow(color=#FFF, offx=2, offy=2);
+}
+
+.transback {
+    background: rgba(0, 0, 0, 0.5);
+}
+
+
 .nav {
-    margin-top: 0.5em;
+    margin-top: 0;
     font-size: 1.4em;
 }
 
 .nav a {
     text-decoration: none;
-    color: #85AEC2;
+    color: #FFF;
     margin-right: 12px;
+    text-shadow: 1px 1px 0px #000;
+    filter: dropshadow(color=#000, offx=1, offy=1);
 }
 
 .nav a:last-child {
@@ -89,8 +117,36 @@ footer .h2 {
     -webkit-margin-end: 0px;
 }
 
+.footer p {
+    clear: both;
+}
+
+.footer p:last-child {
+    padding-top: 2em;
+}
+
 .footer ul {
-    list-style: none
+    list-style: none;
+    clear: both;
+    padding-left: 0;
+}
+
+.footer ul li {
+    float: left;
+    width: 15%;
+    text-align: center;
+    margin-right: 2%;
+}
+
+.footer ul li:last-child {
+    margin-right: 0;
+}
+
+.footer ul li img {
+    width: 80%;
+    margin-bottom: 1em;
+    margin-left: 10%;
+    margin-right: 10%;
 }
 
 .footer a {
