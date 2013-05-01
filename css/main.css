@@ -172,6 +172,10 @@ hr {
     border-radius: 2px;
 }
 
+.long {
+    color: #009900;
+}
+
 .pull {
     margin: 1.5rem 0 1.5rem 2.5rem;
     width: 30%;
@@ -217,4 +221,7 @@ figure {
 .again:active {
     position:relative;
     top:1px;
+}
+.topspacy {
+    padding-top: 2em;
 }
