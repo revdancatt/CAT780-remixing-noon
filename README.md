@@ -1,4 +1,3 @@
-![Screen Shot](http://cattopus23.com/img/panel-CAT780.jpg)
 
 CAT780 Remixing Noon
 ====================
